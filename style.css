@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    display: flex;
+    background-color: #242038;
+    width: 100%;
+    min-height:300px; 
+    justify-content: space-between;
+    position:relative
+
+} 
+
+
+
+
+header .logo {
+
+  
+  margin-top: 1px;
+  margin-left: 5px;
+  height: 200px;
+  width: 200px;
+  align-self: self-start;
+    
+
+ }
+
+ 
+
+
+ ul {
+    
+    background: #f2f2f2;
+    height: 45px;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-right: 5px;
+    margin-top: 5px;
+        
+    
+}
+
+
+ li {
+    display: inline-block;
+
+    
+}
+
+
+ li a {
+    display: block;
+    padding: 1px;
+    color: #242038;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 30px;
+    
+}
+
+
+
+li a:hover {
+    color: #fff;
+    background: #8d86c9;
+     
+} 
+
+
+header:after{
+    
+    content:"";
+    display:block;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:45px;
+    background-image:linear-gradient(90deg, #7F1898, #EFA65B);
+}
+
+
+
+h1{
+
+    font-size: 30px;
+    margin-top: 100px;   
+    color: #F7ECE1;
+    margin-left: 180px;
+    border-style:inset;
+    border-color: #8d86c9;
+    background-image:linear-gradient(90deg, #7F1898, #EFA65B);
+    border-width: 5px;
+    padding:20px;
+    text-align:center;
+    text-transform:uppercase;
+    
+}
+
+
+  
+
+h2{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 175px;
+    color: #F7ECE1;
+    text-align:center;
+   
+   
+    } 
+
+     
+main #inicio{
+
+    background-color: #F7ECE1;
+    width: 100%;
+    position: relative;
+        
+
+}
+    
+    main .texto-main1, .texto-main2, .texto-main3, .texto-main4{
+
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align:center
+    }
+
+    
+
+    main .texto-main5{
+
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 20px;
+    text-align:center
+
+}
+
+   main .formulário{
+
+    background-color: #F7ECE1;
+    width: 100%;
+    position: relative;
+}
+
+.footer{
+
+background-image:linear-gradient(90deg, #7F1898, #EFA65B);
+height: 100px;
+width: 100%;
+margin-top: -40px;
+
+
+}
+    
+
+footer .logo-final img{
+    
+    padding: 5px;
+    width:100px;
+    height:100px;
+    display:block;
+    margin:35px auto}
+    
+footer .texto-footer{
+    
+    color: #F7ECE1;
+    font-size: small;
+    background-color: #242038;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: -40px;
+    text-align:center
+   
+
+}
+
+
+/* Formulário de Contato */
+
+
+
+
+form label {
+    display: flex;
+    margin-bottom: 5px;
+    background-color: #F7ECE1;
+    margin-left: 25%;
+    border-radius: 5%;
+    
+   
+    }
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 24.5%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   
+    
+
+    
+}
+
+form button[type="submit"] {
+    background-color: #242038;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 46%;
+}
+
+
+
+.icone-curriculo{
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+}
+
+.icone-sociais{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F7ECE1;
+   
+   
+   
+   
+}
+
+.img-sociais{
+width: 15%;
+margin-left: 42%;
+
+
+}
+
+
+figcaption{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    margin-left: 0%;
+    margin-bottom: 10px;
+
+}
+
+
+
+/* Exemplo de estilo para projetos no Portfólio */
+
+
+
+
+
+.ProjDesign{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 0%;
+    align-content: center;
+        
+   
+    
+
+
+
+}
+
+.ProjSites{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 0%;
+    margin-bottom: 50px;
+    
+    
+
+
+
+}
+
+
+.projeto1 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #F7ECE1;
+    text-align: center;
+    border-radius: 5%;
+    border-color: #7F1898;
+    margin-top: 10px;
+   
+     
+    
+}
+    
+
+        
+    
+
+
+.projeto2 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #F7ECE1;
+    text-align: center;
+    border-radius: 5%;
+    border-color: #7F1898;
+    margin-top: 10px;
+    
+}
+
+h3 {
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+    background-color: #EFA65B;
+    margin-top: 20px;
+    
+}
+
+h4 {
+    font-size: 15px;
+    margin: 0;
+    
+}
+
+
+
+.pproj {
+   
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align:center
+    
+}
+
+
+.img-proj1{
+width: 300px;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+margin-right: 10px;
+
+}
+
+.img-proj2{
+width: 400px;
+
+
+}
+
+.portfolio-content {
+    /* Estilos para a tag <main> com a classe "portfolio-content" */
+    background-color: #F7ECE1;
+    padding: 20px;
+}
+
+.desenvolvimento-site{
+margin-top: 50px;
+
+}
