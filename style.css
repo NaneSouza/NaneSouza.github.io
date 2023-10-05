@@ -1,0 +1,288 @@
+/* CSS responsivo para os arquivos HTML */
+
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos do cabeçalho */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #242038;
+    padding: 20px;
+
+    
+}
+
+header .logo img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: left;
+    }
+
+
+ul {
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
+li {
+    margin: 0 10px;
+}
+
+
+li a:hover {
+    color: #fff;
+    background: #8d86c9;
+}
+
+/* Estilos do título principal (h1) */
+h1 {
+    font-size: 20px;
+    color: white;
+    border-style: outset;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    background-image:linear-gradient(90deg, #7F1898, #EFA65B);
+   
+}
+
+/* Estilos do subtítulo (h2) */
+
+h2 {
+    font-size: 18px;
+    color: #F7ECE1;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    
+        
+}
+
+/* Estilos do conteúdo principal */
+main {
+    background-color: #F7ECE1;
+    padding: 20px;
+    
+}
+
+.texto-main1 {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.texto-main2 {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+
+.texto-main3 {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.texto-main4 {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.texto-main5 {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.icone-curriculo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+
+/* Estilos para links e botões */
+a {
+    color: #242038;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+
+button {
+    background-color: #242038;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px auto;
+    display: block;
+}
+
+/* Estilos para seções de projetos */
+
+.projeto-section {
+    margin-top: 20px;
+}
+
+.projeto-section h3 {
+    font-size: 23px;
+    color: #242038;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #EFA65B;
+    padding: 10px;
+    border: 4px solid; 
+    border-color: #7F1898; 
+    -webkit-text-stroke-width: 0.7px;
+   -webkit-text-stroke-color: #f2f2f2;
+    
+}
+
+.pproj{
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+
+.projeto {
+    
+    background-color: #F7ECE1;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.projeto h4 {
+    font-size: 16px;
+    color: #f2f2f2;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image:linear-gradient(90deg, #7F1898, #EFA65B);
+    
+    
+}
+
+.projeto img {
+    max-width: 50%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:5px #7F1898;
+    border-style: ridge;
+}
+
+/* Estilos para o formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    background-color: #F7ECE1;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button[type="submit"] {
+    background-color: #242038;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    max-width: 200px;
+    margin: 10px auto;
+    display: block;
+}
+
+
+
+/* Estilos para as redes sociais */
+.icone-sociais {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.icone-sociais img {
+    max-width: 25%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+figcaption{
+font-size: 15px;
+
+
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-image: linear-gradient(90deg, #7F1898, #EFA65B);
+    text-align: center;
+    padding: 20px;
+}
+
+footer .logo-final img {
+    max-width: 18%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.texto-footer {
+    color: #F7ECE1;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
